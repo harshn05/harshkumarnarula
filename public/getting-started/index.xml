@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Getting Started on Hugo Techdoc Theme</title>
-    <link>http://localhost:1313/getting-started/</link>
+    <link>https://example.com/getting-started/</link>
     <description>Recent content in Getting Started on Hugo Techdoc Theme</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 26 Oct 2019 15:26:15 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/getting-started/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://example.com/getting-started/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Installation</title>
-      <link>http://localhost:1313/getting-started/installation/</link>
+      <link>https://example.com/getting-started/installation/</link>
       <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
-      <guid>http://localhost:1313/getting-started/installation/</guid>
+      <guid>https://example.com/getting-started/installation/</guid>
       <description>Install Hugo theme on your project If you have git installed, you can include hugo-theme-techdoc repository into your core repository as submodule using git submodule within your project directory.&#xA;cd your_project&#xD;git submodule add https://github.com/thingsym/hugo-theme-techdoc.git themes/hugo-theme-techdoc For more information read the Hugo documentation.&#xA;Or download Hugo theme on your project If you have git installed, you can do the following at the command-line-interface within your project directory.&#xA;cd your_project/themes&#xD;git clone https://github.</description>
     </item>
     <item>
       <title>Configuration</title>
-      <link>http://localhost:1313/getting-started/configuration/</link>
+      <link>https://example.com/getting-started/configuration/</link>
       <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
-      <guid>http://localhost:1313/getting-started/configuration/</guid>
+      <guid>https://example.com/getting-started/configuration/</guid>
       <description>You may specify options in hugo.toml (or hugo.yaml/hugo.json) of your site to make use of this theme’s features.&#xA;For an example of hugo.toml, see hugo.toml in exampleSite.&#xA;Params # Source Code repository section&#xD;description = &amp;quot;put your description&amp;quot;&#xD;github_repository = &amp;quot;https://github.com/thingsym/hugo-theme-techdoc&amp;quot;&#xD;version = &amp;quot;1.0.0&amp;quot;&#xD;# Documentation repository section&#xD;# documentation repository (set edit link to documentation repository)&#xD;github_doc_repository = &amp;quot;https://github.com/thingsym/hugo-theme-techdoc&amp;quot;&#xD;github_doc_repository_path = &amp;quot;&amp;quot;&#xD;github_doc_repository_branch = &amp;quot;master&amp;quot;&#xD;# Analytic section&#xD;google_analytics_id = &amp;quot;&amp;quot; # Your Google Analytics tracking id&#xD;tag_manager_container_id = &amp;quot;&amp;quot; # Your Google Tag Manager container id&#xD;google_site_verification = &amp;quot;&amp;quot; # Your Google Site Verification for Search Console&#xD;# Open Graph and Twitter Cards settings section&#xD;# Open Graph settings for each page are set on the front matter.</description>
     </item>
     <item>
       <title>Screenshot</title>
-      <link>http://localhost:1313/getting-started/screenshot/</link>
+      <link>https://example.com/getting-started/screenshot/</link>
       <pubDate>Sat, 26 Oct 2019 15:26:15 +0000</pubDate>
-      <guid>http://localhost:1313/getting-started/screenshot/</guid>
+      <guid>https://example.com/getting-started/screenshot/</guid>
       <description>Theme color Menu style Open Menu Slide Menu Edit link </description>
     </item>
   </channel>
