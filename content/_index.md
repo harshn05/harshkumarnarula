@@ -9,22 +9,5 @@ images:
 - images/pexels-photo-196666.jpeg
 ---
 
-# Hugo Techdoc Theme
 
-## The Techdoc is a Hugo Theme for technical documentation.
-
-## Features
-
-* Modern, Simple layout
-* Responsive web design
-* Documentation menu (Select [Menu style](getting-started/screenshot/#menu-style))
-* [Table Of Contents](sample/table-of-contents/) for the page (selective)
-* [Theme color](getting-started/screenshot/#theme-color)
-* [Edit link](getting-started/screenshot/#edit-link) to documentation repository
-* [Custom Shortcodes](sample/custom-shortcodes/)
-  * Code highlight with clipboard
-  * Alert panel
-  * Button
-* [Search Shortcode](sample/search-shortcode/) powered by [Algolia](https://www.algolia.com/)
-* Open Graph
-* Analytics with Google Analytics, Google Tag Manager
+Hello, and welcome to my website! I am Dr. Harsh Kumar Narula, a recent PhD graduate from the Indian Institute of Technology Bombay, India, specializing in the Mathematical Modeling of Microstructure and Microtexture Evolution. My research is centered on creating synthetic microstructures to better understand the relationships between processes, microstructures, and properties. I have developed innovative mathematical models, algorithms, and software tools for Microstructure Evolution in Materials Science. During my dissertation work, I discovered a profound passion for professional software development, acquiring skills in C++, Python, Qt, VTK, OpenGL, Insight Toolkit etc. 

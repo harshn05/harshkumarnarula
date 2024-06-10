@@ -2,7 +2,7 @@ baseURL = "https://example.com"
 
 languageCode = "en-us"
 DefaultContentLanguage = "en"
-title = "Hugo Techdoc Theme"
+title = "Dr. Harsh Kumar Narula"
 theme = "hugo-theme-techdoc"
 
 hasCJKLanguage = true
@@ -15,13 +15,13 @@ enableMissingTranslationPlaceholders = false
 [params]
 
     # Source Code repository section
-    description = "put your description"
-    github_repository = "https://github.com/thingsym/hugo-theme-techdoc"
-    version = "1.0.0"
+    description = "Personal Website"
+    #github_repository = "https://github.com/thingsym/hugo-theme-techdoc"
+    #version = "1.0.0"
 
     # Documentation repository section
     # documentation repository (set edit link to documentation repository)
-    github_doc_repository = "https://github.com/thingsym/hugo-theme-techdoc"
+    # github_doc_repository = "https://github.com/thingsym/hugo-theme-techdoc"
     github_doc_repository_path = ""
     github_doc_repository_branch = "master"
 
@@ -45,7 +45,7 @@ enableMissingTranslationPlaceholders = false
 
     # Documentation Menu section
     # Menu style settings
-    menu_style = "open-menu" # "open-menu" or "slide-menu" or "" blank is as no sidebar
+    menu_style = "slide-menu" # "open-menu" or "slide-menu" or "" blank is as no sidebar
 
     # Date format
     dateformat = "" # default "2 Jan 2006"
@@ -76,7 +76,7 @@ enableMissingTranslationPlaceholders = false
         url = "/"
         weight = 1
         identifier = 'home'
-        pre = "<i class='fa fa-heart'></i>&nbsp;"
+        pre = "<i class='fa fa-home'></i>&nbsp;"
 
     [[menu.main]]
         name = "Twitter"
