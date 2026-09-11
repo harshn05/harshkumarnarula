@@ -1,0 +1,142 @@
+\documentclass[10.5pt,a4paper]{article}
+\usepackage[margin=0.85in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+\definecolor{headcolor}{RGB}{20,20,20}
+
+\hypersetup{colorlinks=true, urlcolor=headcolor, linkcolor=headcolor}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Simple, ATS-friendly section headings: bold, small caps, thin rule below
+\titleformat{\section}
+  {\normalfont\large\bfseries}
+  {}{0em}{}
+  [\vspace{-6pt}\rule{\textwidth}{0.6pt}]
+\titlespacing*{\section}{0pt}{12pt}{6pt}
+
+\newenvironment{tightitemize}
+  {\begin{itemize}[leftmargin=1.2em,itemsep=1pt,topsep=2pt,parsep=0pt]}
+  {\end{itemize}}
+
+\newcommand{\entry}[3]{%
+  \par\noindent\textbf{#1} \hfill #2\\
+  {\itshape\small #3}\par\smallskip
+}
+
+\begin{document}
+
+% ---------- HEADER ----------
+\begin{center}
+{\Large\bfseries Dr. Harsh Kumar Narula}\\[3pt]
+Jaipur, Rajasthan, India \quad $\vert$ \quad +91 9167768594 \quad $\vert$ \quad
+\href{mailto:narula.harsh.kumar@gmail.com}{narula.harsh.kumar@gmail.com} \quad $\vert$ \quad
+\href{https://www.harshkumarnarula.com}{www.harshkumarnarula.com} \quad $\vert$ \quad
+\href{https://github.com/harshn05}{github.com/harshn05}
+\end{center}
+
+\vspace{4pt}
+
+% ---------- PROFESSIONAL SUMMARY ----------
+\section{Professional Summary}
+Computational scientist with expertise in mathematical modeling, numerical methods, and scientific software development. Educated entirely at IIT Bombay (B.Tech., M.Tech., and Ph.D.), with over a decade of experience building computational algorithms in C++ and Python for complex engineering and materials science problems, including stochastic simulation, parameter estimation, and physics-informed modeling. Interested in applying advanced data analytics and machine learning to accelerate industrial R\&D.
+
+% ---------- KEY TECHNICAL THEMES ----------
+\section{Key Technical Themes}
+\begin{tightitemize}
+\item \textbf{Stochastic \& Deterministic Optimization:} parameter estimation from noisy/indirect measurements (solar-cell circuit parameters from I-V data, microstructure reconstruction from grain statistics, SEM image registration)
+\item \textbf{Physics-Informed Modeling:} coupling mechanistic (thermal, flow, phase-transformation) models with empirical/statistical corrections to match real-world behavior
+\item \textbf{Scientific Software Development:} cross-platform GUI tools and simulation engines in C++, Qt, and Python for research and industrial use
+\item \textbf{Signal \& Sensor Data Analysis:} diagnosing and correcting systematic bias in closed-loop control systems --- deriving calibration models from manufacturer data, solving for analytical failure/crossover points, and quantifying uncertainty via bootstrap resampling and parameter sensitivity analysis (ventilator tidal-volume correction, PAVC)
+\end{tightitemize}
+
+% ---------- EDUCATION ----------
+\section{Education}
+
+\entry{Ph.D., Mechanical Engineering --- IIT Bombay}{2014 -- 2024}{Thesis: Mathematical Modeling of Microstructure and Microtexture Evolution \quad CGPA: 9.86/10}
+\begin{tightitemize}
+\item Developed physics-informed stochastic and mechanistic models for reconstructing structured information from sparse, indirect measurements (grain volumes and centroids), applying deterministic and stochastic optimization to high-dimensional inverse problems.
+\item Built EvoSim, a generic algorithm and cross-platform GUI software (C++, Qt, Python) to simulate stochastic nucleation-growth kinetics in discretized spatial domains.
+\item Developed REvoSim, a novel recursive algorithm to reconstruct 3D polycrystalline structure purely from grain-volume and centroid statistics --- an inverse parameter-estimation problem under uncertainty.
+\item Derived a unified tessellation model quantifying the significance of fitting parameters in existing tessellation approaches.
+\end{tightitemize}
+
+\entry{M.Tech. (Dual Degree), Metallurgical Process Engineering --- IIT Bombay}{2005 -- 2010}{Thesis: Modeling Process during Hot Rolling \quad CGPA: 10/10}
+\begin{tightitemize}
+\item Built a coupled 2D thermo-mechanical model (C++, MATLAB) for mass flow, strain, and thermal fields, integrating dynamic recrystallization and empirical grain-size relationships; results validated against literature.
+\end{tightitemize}
+
+\entry{B.Tech. (Dual Degree), Metallurgical Engineering and Materials Science --- IIT Bombay}{2005 -- 2010}{CGPA: 8.79/10}
+
+% ---------- PROFESSIONAL EXPERIENCE ----------
+\section{Professional Experience}
+
+\entry{Project Research Scientist --- IIT Bombay}{Nov 2024 -- Jun 2025}{Jaipur, Rajasthan, India (Remote)}
+\begin{tightitemize}
+\item Explored applying PhD-developed nucleation-growth and tessellation models to spatial mineral prediction, using multi-angle, multi-depth borehole assay data to predict subsurface mineral distribution across a mining region.
+\end{tightitemize}
+
+\entry{Project Research Associate --- IIT Bombay}{Jun 2023 -- Nov 2024}{Remote}
+\begin{tightitemize}
+\item Successfully defended Ph.D. thesis, ``Mathematical Modeling of Microstructure and Microtexture Evolution,'' while simultaneously serving as primary caregiver, managing home-based ICU-level care for a family member with ALS.
+\item Maintained, extended, and documented EvoSim, a scientific simulation software developed during PhD research, on a hydrogen pressure-vessel manufacturing project (TeCoPV India).
+\end{tightitemize}
+
+\entry{Home ICU Caregiver-Engineer}{2019 -- June 2026}{}
+\begin{tightitemize}
+\item Independently designed, built, and managed a home-based invasive ventilation ICU (tracheostomy care, ventilator monitoring, emergency response) for a family member on long-term invasive mechanical ventilation, while concurrently completing PhD research and short-term technical projects remotely.
+\item Diagnosed a systematic tidal-volume measurement bias in a closed-loop ventilator control system (ResMed iVAPS) caused by exhalation-valve substitution: derived power-law flow calibration models from manufacturer data (including pixel-level digitization of a published curve), analytically solved for the pressure at which the two valves' flow characteristics cross over, and quantified prediction uncertainty via bootstrap resampling and parameter sensitivity analysis. Proposed a bedside correction heuristic (Pressure-Anchored V\textsubscript{T} Correction, PAVC) that re-anchors the closed-loop controller on a physical variable unaffected by the sensor bias; published as an engineering case report (\textit{"When the Machine Lies"}), \url{https://livewithals.github.io/when-the-machine-lies}.
+
+\end{tightitemize}
+
+\entry{Project Engineer --- National Centre for Aerospace Innovation and Research (NCAIR), IIT Bombay}{Jan 2013 -- Dec 2013}{}
+\begin{tightitemize}
+\item Developed a MATLAB algorithm and GUI combining stochastic search and steepest-descent methods to automatically generate montages of multiple SEM images; presented at IMTEX-2014.
+\end{tightitemize}
+
+\entry{Senior Research Fellow --- Powder Metallurgy Lab, IIT Bombay}{Apr 2011 -- Jun 2011}{}
+\begin{tightitemize}
+\item Developed a stochastic-search algorithm to estimate five equivalent-circuit parameters for Dye-Sensitized Solar Cells directly from noisy experimental current-voltage data; results confirmed the existence of multiple valid solution sets, consistent with subsequent literature.
+\end{tightitemize}
+
+\entry{Researcher --- Tata Research Development and Design Centre (TRDDC), Pune}{Aug 2010 -- Mar 2011}{}
+\begin{tightitemize}
+\item Built an integrated, physics-based FEM model for carburizing and quenching of steels to predict phase distribution and hardness, with time-resolved visualization of phase evolution.
+\item Developed a MATLAB tool to generate TTT/CCT diagrams for arbitrary steel compositions using the Kirkaldy-Venugopalan phase-kinetics model.
+\end{tightitemize}
+
+\entry{Teaching Assistant --- IIT Bombay}{2011 -- 2019 (multiple terms)}{}
+\begin{tightitemize}
+\item Computational Methods in Metal Forming, Stereology and Image Analysis, Engineering Data Mining and Applications, Mechanics of Materials, and other UG/PG courses.
+\end{tightitemize}
+
+% ---------- PUBLICATIONS ----------
+\section{Selected Publications}
+\begin{tightitemize}
+\item Vasavada, J., Narula, H.K., Mishra, S., Nandy, T.K., Tewari, A. ``Development of novel Moving Wave Front image processing algorithm and microstructural quantification of Tungsten Heavy Alloy.'' \textit{Computational Materials Science}, 170 (2019): 109181. \href{https://doi.org/10.1016/j.commatsci.2019.109181}{doi.org/10.1016/j.commatsci.2019.109181}
+\item Prita, P., Sushil, M., Shanta, C., Harsh, N. ``Development of materials model based on microstructure evolution for formability analysis of low-Ni austenitic stainless steel.'' \textit{IOP Conference Series: Materials Science and Engineering}, 82.1 (2015): 012-017. \href{https://www.me.iitb.ac.in/faculty/prof-sushil-mishra/publications}{me.iitb.ac.in/faculty/prof-sushil-mishra/publications}
+\item Jena, A., et al. ``Dye sensitized solar cells: a review.'' \textit{Transactions of the Indian Ceramic Society}, 71.1 (2012): 1-16. \href{https://doi.org/10.1080/0371750X.2012.689503}{doi.org/10.1080/0371750X.2012.689503}
+\end{tightitemize}
+
+% ---------- SKILLS ----------
+\section{Technical Skills}
+\begin{tightitemize}
+\item \textbf{Programming \& Numerical Computing:} Python, C++, MATLAB, Octave, Maxima, Maple, Cython, Pybind11
+\item \textbf{Modeling \& Optimization:} finite element methods, stochastic \& deterministic optimization, PDE solvers, numerical methods
+\item \textbf{Imaging \& Vision:} OpenCV, VTK, ITK
+\item \textbf{Tools:} PyQt5, LaTeX, Shell Scripting, Git
+\item \textbf{Platforms:} Ubuntu, openSUSE, Windows
+\end{tightitemize}
+
+% ---------- ACHIEVEMENTS ----------
+\section{Scholastic Achievements}
+\begin{tightitemize}
+\item IIT-JEE 2005 --- All India Rank 2645 \quad$\vert$\quad AIEEE 2005 --- All India Rank 4056 \quad$\vert$\quad Rajasthan Pre-Engineering Test 2005 --- State Rank 7
+\end{tightitemize}
+
+\end{document}
