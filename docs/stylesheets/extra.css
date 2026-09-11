@@ -51,7 +51,7 @@
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url("../research/images/image2_orig.gif");
+  background-image: url("../research/PhD/images/image2_orig.gif");
   background-size: cover;
   background-position: center 35%;
   filter: grayscale(1) contrast(1.35);
