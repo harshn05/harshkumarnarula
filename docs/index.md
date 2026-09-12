@@ -17,7 +17,7 @@ hide:
     </div>
   </div>
   <div class="hero-photo">
-    <img src="images/harsh.jpg" alt="Dr. Harsh Kumar Narula">
+    <img src="images/harsh.png" alt="Dr. Harsh Kumar Narula">
   </div>
 </div>
 
