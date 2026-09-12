@@ -25,7 +25,7 @@ theme:
     - content.code.annotate
     - content.tabs.link
     - toc.follow
-    - header.autohide
+    #- header.autohide
 
   palette:
     - scheme: default
