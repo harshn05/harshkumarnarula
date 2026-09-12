@@ -69,8 +69,8 @@ extra_css:
 extra:
   generator: false
   analytics:
-    - provider: google
-    - property: G-3SGJXK65DQ
+    provider: google
+    property: G-3SGJXK65DQ
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/harshn05
