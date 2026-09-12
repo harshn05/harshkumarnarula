@@ -1,7 +1,7 @@
 site_name: "Dr. Harsh Kumar Narula"
 site_description: "Computational Scientist | Scientific Software Engineer | Materials Science"
 site_author: "Harsh Kumar Narula"
-site_url: "https://harshkumarnarula.com"
+site_url: "https://www.harshkumarnarula.com/"
 
 theme:
   name: material
@@ -9,6 +9,7 @@ theme:
   font:
     text: Inter
     code: JetBrains Mono
+
   features:
     - navigation.instant
     - navigation.instant.progress
@@ -25,6 +26,7 @@ theme:
     - content.tabs.link
     - toc.follow
     - header.autohide
+
   palette:
     - scheme: default
       primary: blue grey
@@ -32,12 +34,14 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
+
     - scheme: slate
       primary: blue grey
       accent: deep orange
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
+
   icon:
     logo: material/flask-outline
     repo: fontawesome/brands/github
@@ -52,13 +56,16 @@ plugins:
 nav:
   - Home: index.md
   - About: about.md
+
   - Research:
       - Overview: research/index.md
       - Scientific Software Engineering: research/soft.md
-      - PhD Research: research/PhD.md 
+      - PhD Research: research/PhD.md
+
   - Projects:
       - Overview: projects/index.md
       - WinDev: projects/windev.md
+
   - Publications: publications.md
   - CV: cv.md
 
@@ -68,20 +75,27 @@ extra_css:
 
 extra:
   generator: false
+
   analytics:
     provider: google
     property: G-3SGJXK65DQ
+
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/harshn05
+
     - icon: fontawesome/brands/orcid
       link: https://orcid.org/0000-0003-3902-2189
+
     - icon: fontawesome/brands/google-scholar
       link: https://scholar.google.com/citations?user=J8XsOPUAAAAJ&hl=en
+
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/harshn/
+
     - icon: fontawesome/brands/x-twitter
       link: https://x.com/harshiitb
+
     - icon: fontawesome/solid/envelope
       link: mailto:harsh.narula@iitbombay.org
 
@@ -92,21 +106,27 @@ markdown_extensions:
   - attr_list
   - tables
   - footnotes
+
   - toc:
       permalink: true
+
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
+
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
   - pymdownx.details
   - pymdownx.keys
+
   - pymdownx.arithmatex:
       generic: true
+
   - pymdownx.tabbed:
       alternate_style: true
+
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
