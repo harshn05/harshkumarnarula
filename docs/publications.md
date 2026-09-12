@@ -18,7 +18,7 @@
 
 ---
 
-# Conference Presentations
+## Conference Presentations
 
 1. **Harsh Kumar Narula**  
    *Synthetic Microstructure Realizations with Random Texture.*  
@@ -50,7 +50,7 @@
 
 ---
 
-# Other Articles
+## Other Articles
 
 1. **Harsh Kumar Narula**  
    *Micromechanical Failures in Composites.*  
