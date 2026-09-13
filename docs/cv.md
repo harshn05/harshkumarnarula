@@ -3,7 +3,7 @@
 ## Dr. Harsh Kumar Narula
 
 **Computational scientist, scientific software engineer, and materials-science researcher**  
-Jaipur, Rajasthan, India | +91 9167768594 | narula.harsh.kumar@gmail.com | www.harshkumarnarula.com | github.com/harshn05
+Jaipur, Rajasthan, India | harsh.narula@iitbombay.org | www.harshkumarnarula.com | github.com/harshn05
 
 ## Professional summary
 
