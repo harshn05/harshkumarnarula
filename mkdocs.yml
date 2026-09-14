@@ -25,6 +25,7 @@ theme:
     - content.code.annotate
     - content.tabs.link
     - toc.follow
+    - navigation.footer
     #- header.autohide
 
   palette:
@@ -73,6 +74,7 @@ nav:
 extra_css:
   - stylesheets/extra.css
   - stylesheets/research.css
+  - stylesheets/shutri.css
 
 extra:
   generator: false
