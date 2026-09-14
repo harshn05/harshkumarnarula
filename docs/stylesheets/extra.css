@@ -102,6 +102,30 @@
   .hero-photo { width: min(260px, 70vw); justify-self: start; order: -1; }
 }
 
+
+
+
+/* ============================================================
+   Hero buttons — dark mode contrast fix
+   ============================================================ */
+
+.hero-actions .md-button:not(.md-button--primary) {
+  color: var(--md-accent-fg-color) !important;
+  border-color: var(--md-accent-fg-color);
+  background: rgba(9, 12, 14, .18);
+}
+
+.hero-actions .md-button:not(.md-button--primary):hover {
+  color: #fff !important;
+  background: var(--md-accent-fg-color);
+  border-color: var(--md-accent-fg-color);
+}
+
+.hero-actions .md-button--primary {
+  color: #fff !important;
+}
+
+
 /* "The intersection" card grid on homepage */
 .card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin: 1.25rem 0 2rem; }
 .hn-card {
