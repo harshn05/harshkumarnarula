@@ -1,18 +1,27 @@
-# Dr. Harsh Kumar Narula — Personal Technical Website
+# Dr. Harsh Kumar Narula — Personal Website
 
-MkDocs Material personal scientific/engineering website.
+Personal website of **Dr. Harsh Kumar Narula** — Computational Scientist, Scientific Software Engineer, and Materials Scientist.
 
-Features: Material light/dark mode, tabbed navigation, search, code-copy support, responsive research-image archive, 153 original research images, research/software/projects/AI-ML/publications/notes/CV pages, and GitHub Pages deployment.
+The site brings together my:
 
-## Run locally
+- Research in computational materials science
+- Scientific software and engineering projects
+- C++ / Python development
+- Publications and CV
+- AI/ML work for scientific and engineering applications
+
+## Built With
+
+- Python
+- MkDocs
+- Material for MkDocs
+- Markdown
+- Custom CSS
+- GitHub Actions
+- GitHub Pages
+
+## Local Development
+
 ```bash
-python -m venv .venv
-.venv\Scripts\activate
 pip install -r requirements.txt
 mkdocs serve
-```
-
-## Build
-```bash
-mkdocs build
-```
