@@ -1,1 +1,17 @@
-site
+# MkDocs
+site/
+mkdocs-build.log
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
