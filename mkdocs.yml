@@ -62,6 +62,7 @@ nav:
       - Overview: research/index.md
       - Scientific Software Engineering: research/soft.md
       - PhD Research: research/PhD.md
+      - Gallery: research/Gallery.md
 
   - Projects:
       - Overview: projects/index.md
