@@ -5,6 +5,7 @@ site_url: "https://www.harshkumarnarula.com/"
 
 theme:
   name: material
+  favicon: images/favicon.png
   language: en
   font:
     text: Source Serif 4

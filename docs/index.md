@@ -39,7 +39,7 @@ hide:
 ## Featured research
 
 <div class="research-feature">
-<a href="research/PhD/images/image4_orig.gif"><img src="research/Gallery/images/image4_orig.gif" alt="Synthetic polycrystalline microstructure"></a>
+<a href="research/Gallery/images/image4_orig.gif"><img src="research/Gallery/images/image4_orig.gif" alt="Synthetic polycrystalline microstructure"></a>
 <figcaption>Computationally generated polycrystalline structure from the research archive.</figcaption>
 </div>
 
